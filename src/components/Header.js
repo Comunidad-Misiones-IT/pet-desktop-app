@@ -1,6 +1,6 @@
 import { Route, Link } from "react-router-dom";
 import Home from "./Home";
-import InicioSesion from "./InicioSesion";
+import InicioSesion from "./InicioSesion/InicioSesion";
 import Registro from "./Registro";
 import Galeria from "./Galeria";
 import Nosotros from "./Nosotros";

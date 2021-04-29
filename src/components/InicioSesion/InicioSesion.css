@@ -1,0 +1,137 @@
+.root {
+    display: flex; 
+    justify-content: center; 
+   }
+
+  .container{
+    width: 50%; 
+    height:793px; 
+    display: flex; 
+    border: 1px solid #8626FF; 
+    border-radius: 60px;
+    margin: 50px;
+   }
+
+ .form{
+   display: flex; 
+   flex-direction: column; 
+   justify-content: center; 
+   align-items: center; 
+   width: 50%;
+   padding: 15px;
+ }
+
+ .labels{ 
+   font-size: 28px; 
+   color: #8626FF;
+   display: flex;
+   flex-direction: column;
+   justify-content: center; 
+   align-items: center;
+ }
+ .inputs{
+   width: 100%; 
+   height: 60px; 
+   border: 1px solid #8626FF; 
+   border-radius: 40px; 
+   margin: 15px;
+   font-size: 28px;
+   color:#8626FF;
+   text-indent: 15px;
+ }
+ input:focus{
+  appearance: none;
+  border: 1px solid #8626FF; 
+  outline: none;
+  border-radius: 40px;
+}
+ .socialMedia{
+   width: 180px; 
+   height: 72px; 
+   margin: 8px; 
+   border-radius: 40px; 
+   border: 1px solid #8626FF; 
+   color: #8626FF; 
+   font-size: 25px;
+   cursor: pointer;
+ }
+ .socialMedia:hover {
+   background-color: #8626FF;
+   color: white;
+ }
+ .submit{
+   width: 251px; 
+   height: 66px; 
+   margin: 8px; 
+   background-color: rgba(134, 38, 255, 0.3); 
+   border-radius: 40px; 
+   border: 1px solid #8626FF; 
+   color: #8626FF; 
+   font-size: 25px;
+   cursor: pointer;
+ }
+ .submit:hover {
+  background-color: #8626FF;
+  color: white;
+}
+
+.link {
+  padding: 25px;
+}
+.link a{
+  text-decoration: none;
+  font-size: 25px;
+  color: #8626FF;
+}
+.link a:hover{
+  color: rgba(134, 51, 235, 0.609);
+}
+ .aside{
+   background-color: rgba(134, 38, 255, 0.3); 
+   border-radius: 0px 60px 60px 0px; 
+   width: 50%;
+ }
+
+
+ @media only screen and (max-width: 1190px ) {
+  .container{
+    width: 80%; 
+    height:793px; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #8626FF; 
+    border-radius: 60px;
+    margin: 50px;
+    padding: 5px;
+   }
+  .inputs{
+    width: 100%; 
+    height: 60px; 
+    border: 1px solid #8626FF; 
+    border-radius: 40px; 
+    margin: 15px;
+    font-size: 28px;
+    color:#8626FF;
+    text-indent: 15px;
+  }
+  .aside {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container{
+    width: 80%; 
+    height: 793px; 
+    display: flex; 
+    border: 1px solid #8626FF; 
+    border-radius: 60px;
+    margin: 50px;
+  }
+  .aside{
+   background-color: rgba(134, 38, 255, 0.3); 
+   border-radius: 0px 60px 60px 0px; 
+   width: 50%;
+  }
+ }
