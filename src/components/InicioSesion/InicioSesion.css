@@ -7,9 +7,9 @@
   width: 50%;
   height: 793px;
   display: flex;
-  border: 1px solid #8626ff;
   border-radius: 60px;
   margin: 50px;
+  background: #FFFFFF;
 }
 
 .form {
@@ -23,7 +23,7 @@
 
 .labels {
   font-size: 28px;
-  color: #8626ff;
+  color: #000;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -32,16 +32,17 @@
 .inputs {
   width: 100%;
   height: 60px;
-  border: 1px solid #8626ff;
   border-radius: 40px;
+  border-style: none;
   margin: 15px;
   font-size: 28px;
-  color: #8626ff;
+  color: #000;
   text-indent: 15px;
+  background: #C4C4C4;
 }
 input:focus {
   appearance: none;
-  border: 1px solid #8626ff;
+  border: 1px solid #FBCEB5;
   outline: none;
   border-radius: 40px;
 }
@@ -50,29 +51,36 @@ input:focus {
   height: 72px;
   margin: 8px;
   border-radius: 40px;
-  border: 1px solid #8626ff;
-  color: #8626ff;
+  border-style: none;
+  color: #FFFFFF;
   font-size: 25px;
   cursor: pointer;
 }
+
 .socialMedia:hover {
-  background-color: #8626ff;
-  color: white;
+  color: rgba(0, 0, 0, 0.74);
+}
+
+.google {
+  background-color: #EA4336;
+}
+
+.facebook {
+  background-color: #3b5998;
 }
 .submit {
   width: 251px;
   height: 66px;
   margin: 8px;
-  background-color: rgba(134, 38, 255, 0.3);
+  background-color: #F09745;
   border-radius: 40px;
-  border: 1px solid #8626ff;
-  color: #8626ff;
+  border-style: none;
+  color: #FFFFFF;
   font-size: 25px;
   cursor: pointer;
 }
 .submit:hover {
-  background-color: #8626ff;
-  color: white;
+  color: rgba(0, 0, 0, 0.74);
 }
 
 .link {
@@ -80,14 +88,16 @@ input:focus {
 }
 .link a {
   text-decoration: none;
-  font-size: 25px;
-  color: #8626ff;
+  font-size: 20px;
+  color: #000;
 }
 .link a:hover {
-  color: rgba(134, 51, 235, 0.609);
+  color: rgba(0, 0, 0, 0.74);
 }
 .aside {
-  background-color: rgba(134, 38, 255, 0.3);
+  background-image: url("https://images.pexels.com/photos/1242419/pexels-photo-1242419.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  background-repeat: no-repeat;
   border-radius: 0px 60px 60px 0px;
   width: 50%;
 }
@@ -99,7 +109,6 @@ input:focus {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #8626ff;
     border-radius: 60px;
     margin: 50px;
     padding: 5px;
@@ -107,7 +116,8 @@ input:focus {
   .inputs {
     width: 100%;
     height: 60px;
-    border: 1px solid #8626ff;
+    background: #C4C4C4;
+    border-style: none;
     border-radius: 40px;
     margin: 15px;
     font-size: 28px;
@@ -124,7 +134,6 @@ input:focus {
     width: 80%;
     height: 793px;
     display: flex;
-    border: 1px solid #8626ff;
     border-radius: 60px;
     margin: 50px;
   }

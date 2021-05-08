@@ -14,8 +14,8 @@ export default function InicioSesion() {
             <input className="inputs" type="password" name="pass" />
           </label>
           <div>
-            <input className="socialMedia" type="submit" value="Google" />
-            <input className="socialMedia" type="submit" value="Facebook" />
+            <input className="socialMedia google" type="submit" value="Google" />
+            <input className="socialMedia facebook" type="submit" value="Facebook" />
           </div>
           <input className="submit" type="submit" value="Ingresar" />
           <div className="link">
