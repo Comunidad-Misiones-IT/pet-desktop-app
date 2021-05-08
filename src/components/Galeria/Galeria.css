@@ -19,7 +19,7 @@
     width: 286px; 
     height: 352px; 
     margin: 10px; 
-    background-color: #C4C4C4; 
+    background-color: #f8f5f1; 
     border-radius: 20px;
     display: flex; 
     justify-content: center; 
@@ -39,17 +39,18 @@
     border-radius: 20px; 
     background-size: cover; 
     background-repeat: no-repeat;
-    border: .5px solid #d3d1d1;
+    border: 1px solid #F1EBE5;
 }
 
 .pet-name {
     font-size: 30px;
+    color: #6e7c7c;
     font-family: 'Alike Angular', serif;
 }
 
 .info-button {
     background: #FFFFFF;
-    border: 2px solid #57A5BD;
+    border: 2px solid #F09745;
     box-sizing: border-box;
     border-radius: 10px;
     font-family: 'Alike Angular', serif;
@@ -57,9 +58,14 @@
     font-weight: normal;
     font-size: 20px;
     line-height: 38px;
-    color: #57A5BD;
+    color: #F09745;
     padding: 5px 20px 5px 20px;
     cursor: pointer;
+}
+
+.info-button:hover {
+    background-color: #F09745;
+    color: #FFFFFF;
 }
 
 @media only screen and (min-width: 1545px) {
