@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Alike+Angular&display=swap');
+
+.container {
+    padding: 30; 
+    width: 100%; 
+    display: flex; 
+    justify-content: center;
+}
+
+.cards-container {
+    width: 80%;  
+    display: flex; 
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+    align-self: center;
+}
+
+.card {
+    width: 286px; 
+    height: 352px; 
+    margin: 10px; 
+    background-color: #f8f5f1; 
+    border-radius: 20px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card:hover {
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotateZ(-4deg);
+}
+
+.image-container {
+    width: 220px; 
+    height: 150px; 
+    border-radius: 20px; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    border: 1px solid #F1EBE5;
+}
+
+.pet-name {
+    font-size: 30px;
+    color: #6e7c7c;
+    font-family: 'Alike Angular', serif;
+}
+
+.info-button {
+    background: #FFFFFF;
+    border: 2px solid #F09745;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: 'Alike Angular', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 38px;
+    color: #F09745;
+    padding: 5px 20px 5px 20px;
+    cursor: pointer;
+}
+
+.info-button:hover {
+    background-color: #F09745;
+    color: #FFFFFF;
+}
+
+@media only screen and (min-width: 1545px) {
+    .cards-container {
+        width: 60%; 
+    }
+  }

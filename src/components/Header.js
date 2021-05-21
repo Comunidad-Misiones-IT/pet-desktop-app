@@ -2,7 +2,7 @@ import { Route, Link } from "react-router-dom";
 import Home from "./Home";
 import InicioSesion from "./InicioSesion/InicioSesion";
 import Registro from "./Registro";
-import Galeria from "./Galeria";
+import Galeria from "./Galeria/Galeria";
 import Nosotros from "./Nosotros";
 
 export default function Header() {
